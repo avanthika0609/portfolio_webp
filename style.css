@@ -1,0 +1,252 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('pngtree-abstract-playful-portfolio-pink-memphis-picture-image_1347357.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f4f4f4;
+  }
+  
+  .container {
+    width: 85%;
+    margin: auto;
+    padding: 30px 0;
+  }
+  
+  nav {
+    background: #1f1f1f;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #f4f4f4;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffffff;
+  }
+  
+  
+  
+  .profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 0px; 
+  }
+  
+  .profile-pic img {
+    width: 200px;       
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover;   
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    padding:0;
+    margin:0;
+  }
+
+  #about {
+    text-align: center;
+    margin: 0 20px;   
+  }
+  .about-text p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;   
+    text-align: center; 
+    max-width: 1000px;  
+    padding-left: 200px;
+    color:#714b4b; 
+  }
+  
+  
+  
+  #skills {
+    text-align: center; 
+    margin: 60px 20px;
+  }
+
+  #skills h2 {
+    margin-bottom: 20px; 
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 120px 120px;  
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  
+  .skill-card {
+    width: 100px;
+    text-align: center;
+    padding: 12px;
+    background-color: #eb9578;
+    border-radius: 12px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .skill-card img {
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card p {
+    font-size: 14px;
+    color: #020101;
+    margin: 0;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-6px);
+    background-color: #2a2a2a;
+  }
+  
+  .skill-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 768px) {
+    .skill-card {
+      width: 90px;
+    }
+  
+    .skill-card img {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .skill-card p {
+      font-size: 13px;
+    }
+  }
+  
+  
+  #education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 20px;
+  }
+  
+  #education h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  #education p {
+    font-size: 20px;
+    line-height: 1.8;
+    word-spacing: 3px;  
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color:#714b4b; 
+  }
+
+  #projects {
+    text-align: center;
+    margin: 50px 0;
+  }
+ 
+  .project-display {
+    font-size: 18px;
+    background-color: #f9f9f9;
+    color:#714b4b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .project-display h3 {
+    margin-bottom: 10px;
+  }
+  
+  .project-display a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #eb9578;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  .buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #eb9578;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    background-color: #eb9578;
+  }
+  
+  
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 20px;
+  }
+
+  #contact h2{
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+.contact-details a {
+  color: white !important;   
+  text-decoration: none;
+}
+
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  
